@@ -284,6 +284,7 @@ These tools have become central to modern software development practices, partic
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
 
 *** Common challenges
+
 1. Merge conflicts - Occurs when multiple developers edit the same file or line of code, requiring manual resolution. Most frequent in large teams or when branches are not updated regularly.
 2. Keeping Branches in Sync - Developers may work on outdated branches, leading to inconsistencies and integration difficulties. Also, merging untested or outdated branches can introduce bugs.
 3. Lack of Clear Commit Messages - Vague or inconsistent commit messages make it hard to track changes or understand the history of modifications.
@@ -293,6 +294,7 @@ These tools have become central to modern software development practices, partic
 7. Onboarding New Contributors - Lack of proper documentation can make it difficult for new developers to understand the repository structure and workflow.
 
 *** Best Practices
+
 1. Use Feature Branches
 Follow a branching strategy (e.g., Git Flow, GitHub Flow).
 Keep branches short-lived and focused on a single feature or fix.
@@ -329,6 +331,7 @@ Manage Large Files Efficiently
 Consider external storage solutions for non-code assets.
 
 *** Common Pitfalls
+
 Ignoring Version Control Basics: New users may jump into using Git without fully understanding the fundamental concepts like commits, branches, and merges.
 
 Neglecting Proper Branching: Working directly on the main branch instead of creating feature branches can lead to instability and confusion.
@@ -344,6 +347,7 @@ Overlooking Documentation: Users may overlook the importance of documenting thei
 Not Being Familiar with Tools: Users might not fully leverage GitHub's features, such as issues, pull requests, and discussions, which can enhance collaboration.
 
 *** Strategies to Overcome Pitfalls
+
 Educational Resources: Encourage new users to utilize tutorials and documentation (like Git's official documentation or GitHub Learning Lab) to build a foundational understanding of version control.
 
 Establish Branching Policies: Implement a defined branching strategy (e.g., Git Flow) that encourages creating feature branches for new work rather than working directly on the main branch.
